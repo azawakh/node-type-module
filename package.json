@@ -5,7 +5,6 @@
   "repository": "git@github.com:azawakh/functional-javascript.git",
   "author": "azawakh <azawakhh@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "lint": "eslint --ext ts .",
     "build": "tsc -p .",
