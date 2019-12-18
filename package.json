@@ -2,9 +2,11 @@
   "name": "functional-javascript",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "dist/index.js",
   "repository": "git@github.com:azawakh/functional-javascript.git",
   "author": "azawakh <azawakhh@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "lint": "eslint --ext ts .",
     "build": "tsc -p .",
@@ -12,12 +14,13 @@
   },
   "dependencies": {
     "@types/node": "^12.12.17",
+    "fast-xml-parser": "^3.15.1",
     "typescript": "^3.7.3"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^2.11.0",
-    "eslint": "^6.7.2",
+    "eslint": "git+https://github.com/azawakh/eslint.git",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-import": "^2.19.1",

@@ -17,9 +17,7 @@ module.exports = {
   },
   env: {
     node: true,
-    es6: true,
-    commonjs: true,
-    jest: true
+    es6: true
   },
   settings: {
     "import/resolver": {
