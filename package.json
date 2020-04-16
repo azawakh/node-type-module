@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": "dist/index.js",
-  "repository": "git@github.com:azawakh/functional-javascript.git",
-  "author": "azawakh <azawakhh@gmail.com>",
+  "repository": "git@github.com:hagevvashi/node-type-module.git",
+  "author": "hagevvashi <hagevvashi@gmail.com>",
   "license": "MIT",
   "type": "module",
   "scripts": {
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.12.0",
     "@typescript-eslint/parser": "2.12.0",
-    "eslint": "git+https://github.com/azawakh/eslint.git",
+    "eslint": "git+https://github.com/hagevvashi/eslint.git",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-import": "2.19.1",
