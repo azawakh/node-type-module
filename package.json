@@ -18,8 +18,8 @@
     "typescript": "^3.7.3"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "2.12.0",
-    "@typescript-eslint/parser": "2.12.0",
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.34.0",
     "eslint": "git+https://github.com/hagevvashi/eslint.git",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
